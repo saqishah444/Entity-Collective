@@ -58,19 +58,24 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div>
-                <div className='relative'>
-              <span className="bg-cyan-600 z-50 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
-                Intern
-              </span>
-              <div className='absolute left-[-150px] bottom-0 '>
+                
+                <div className='relative inline-block'>
+                  <div className='absolute z-0 left-[-150px] bottom-0 '>
                 <img src={maskleft} className='h-44 w-auto  ' alt="" srcset="" />
               </div>
+             <div className='mx-auto'>
+               <span className="bg-cyan-600  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                Intern
+              </span>
+             </div>
+              
+              
             </div>
-                <p className='tracking-widest [word-spacing:10px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                <p className='tracking-widest [word-spacing:10px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
               </div>
-              <div>
-                <img src={internship} alt=""  />
+              <div className='flex justify-center'>
+                <img src={internship} alt=""  className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
 
               </div>
             </div>
