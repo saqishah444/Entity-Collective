@@ -54,29 +54,74 @@ const App = () => {
       <section id="about" className="  bg-white px-6 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
-            
+
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div>
-                
+
                 <div className='relative inline-block'>
                   <div className='absolute z-0 left-[-150px] bottom-0 '>
-                <img src={maskleft} className='h-44 w-auto  ' alt="" srcset="" />
-              </div>
-             <div className='mx-auto'>
-               <span className="bg-cyan-600  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
-                Intern
-              </span>
-             </div>
-              
-              
-            </div>
-                <p className='tracking-widest [word-spacing:10px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                    <img src={maskleft} className='h-44 w-auto  ' alt=""  />
+                  </div>
+                  <div className='mx-auto'>
+                    <span className="bg-cyan-600  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                      Intern
+                    </span>
+                  </div>
 
+
+                </div>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+
+               
               </div>
               <div className='flex justify-center'>
-                <img src={internship} alt=""  className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
+                <img src={internship} alt="" className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
 
+              </div>
+            </div>
+            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
+              <div>
+                 <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <div className="p-5 bg-white">
+                  <ul className="space-y-4">
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Opportunities for meaningful collaboration with like-minded professionals
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Access to our professional network and job opportunities
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        20% discount on all services provided by Entity Collective
+                      </p>
+                    </li>
+                  </ul>
+
+
+                  <p className="mt-6 text-2xl font-semibold text-cyan-900">
+                    Annual Membership Fee: €50
+                  </p>
+                </div>
               </div>
             </div>
 
