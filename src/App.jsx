@@ -5,6 +5,7 @@ import pathimg from './assets/images/path.png'
 import herocomp from './assets/images/hero-component.png'
 import maskleft from './assets/images/mask-group-left.png'
 import internship from './assets/images/internship.png'
+import component from './assets/images/component.png'
 
 const App = () => {
   return (
@@ -50,8 +51,8 @@ const App = () => {
 
       </section>
 
-      {/* About Section */}
-      <section id="about" className="  bg-white px-6 py-16" >
+      {/* Intern Section */}
+      <section id="intern" className="  bg-white px-6 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -61,10 +62,10 @@ const App = () => {
 
                 <div className='relative inline-block'>
                   <div className='absolute z-0 left-[-150px] bottom-0 '>
-                    <img src={maskleft} className='h-44 w-auto  ' alt=""  />
+                    <img src={maskleft} className='h-36 w-auto  ' alt=""  />
                   </div>
                   <div className='mx-auto'>
-                    <span className="bg-cyan-600  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <span className="bg-cyan-600 ms-20  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
                       Intern
                     </span>
                   </div>
@@ -77,6 +78,13 @@ const App = () => {
               </div>
               <div className='flex justify-center'>
                 <img src={internship} alt="" className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
+                 <div className='relative'>
+                    <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
+                      <img src={component}  alt="" /> 
+
+                    </div>
+
+                  </div>
 
               </div>
             </div>
@@ -84,7 +92,7 @@ const App = () => {
               <div>
                  <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
                       <p className="text-xl leading-relaxed text-gray-600">
@@ -116,9 +124,10 @@ const App = () => {
                       </p>
                     </li>
                   </ul>
+                 
 
 
-                  <p className="mt-6 text-2xl font-semibold text-cyan-900">
+                  <p className="mt-6 text-2xl font-semibold text-cyan-700">
                     Annual Membership Fee: €50
                   </p>
                 </div>
@@ -131,6 +140,17 @@ const App = () => {
 
 
       </section>
+
+      {/* Intern Section End */}
+
+      {/* Research Section start */}
+      
+
+
+
+
+
+
 
 
 
