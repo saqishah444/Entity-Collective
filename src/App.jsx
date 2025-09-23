@@ -6,6 +6,12 @@ import herocomp from './assets/images/hero-component.png'
 import maskleft from './assets/images/mask-group-left.png'
 import internship from './assets/images/internship.png'
 import component from './assets/images/component.png'
+import maskright from './assets/images/mask-group-right.png'
+import research from './assets/images/research.png'
+import sponsership from './assets/images/sponsership.png'
+import partnership from './assets/images/partnership.png'
+
+
 
 const App = () => {
   return (
@@ -51,7 +57,7 @@ const App = () => {
 
       </section>
 
-      {/* Intern Section */}
+      {/* Intern Section Start */}
       <section id="intern" className="  bg-white px-6 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
@@ -62,10 +68,10 @@ const App = () => {
 
                 <div className='relative inline-block'>
                   <div className='absolute z-0 left-[-150px] bottom-0 '>
-                    <img src={maskleft} className='h-36 w-auto  ' alt=""  />
+                    <img src={maskleft} className='h-36 w-auto  ' alt="" />
                   </div>
                   <div className='mx-auto'>
-                    <span className="bg-cyan-600 ms-20  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <span className="bg-cyan-600 ms-0 lg:ms-32  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
                       Intern
                     </span>
                   </div>
@@ -74,23 +80,23 @@ const App = () => {
                 </div>
                 <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
-               
+
               </div>
               <div className='flex justify-center'>
                 <img src={internship} alt="" className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
-                 <div className='relative'>
-                    <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
-                      <img src={component}  alt="" /> 
-
-                    </div>
+                <div className='relative'>
+                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
+                    <img src={component} alt="" />
 
                   </div>
+
+                </div>
 
               </div>
             </div>
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
               <div>
-                 <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
@@ -124,7 +130,7 @@ const App = () => {
                       </p>
                     </li>
                   </ul>
-                 
+
 
 
                   <p className="mt-6 text-2xl font-semibold text-cyan-700">
@@ -143,8 +149,183 @@ const App = () => {
 
       {/* Intern Section End */}
 
-      {/* Research Section start */}
-      
+      {/* Research Section Start */}
+
+      <section id="research" className="  bg-white px-6 py-16" >
+        <div className='container mx-auto'>
+          <div className='flex flex-col justify-center items-center'>
+
+            <div className='grid md:grid-cols-2  justify-center relative'>
+
+              <div className='flex justify-center order-2 md:order-1'>
+                <img src={research} alt="" className='   md:h-72   lg:mt-32 w-auto' />
+
+
+              </div>
+              <div className='order-1 md:order-2'>
+
+                <div className='relative w-full'>
+                  <div className='absolute z-0 right-0 bottom-0   lg:-right-40 xl:-right-5'>
+                    <img src={maskright} className='h-24 md:h-28 lg:h-32 w-auto' alt="" />
+                  </div>
+                  <div className='mx-auto relative z-10'>
+                    <span className="bg-[#923A7F] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                      Research
+                    </span>
+                  </div>
+
+
+                </div>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[20px] mt-8'>The Researcher Membership is intended for individuals deeply involved in the arts or social sciences who are committed to conducting advanced research in collaboration with Entity projects.</p>
+
+
+              </div>
+
+            </div>
+            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
+              <div></div>
+              <div>
+                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <div className="p-5 bg-white">
+                  <ul className="space-y-4 tracking-widest">
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Recognition as a Researcher Member on the Entity Collective website
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Access to our network of communities and partner organisations
+                      </p>
+                    </li>
+
+
+
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        20% discount on all services provided by Entity Collective
+                      </p>
+                    </li>
+                  </ul>
+
+
+
+                  <p className="mt-6 text-2xl font-semibold text-[#923A7F]">
+                    Annual Membership Fee: €50
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+      {/* Research Section End */}
+
+      {/* Partner Section Start */}
+      <section id="partner" className="  bg-white px-6 py-16" >
+        <div className='container mx-auto'>
+          <div className='flex flex-col justify-center items-center'>
+
+            <div className='grid md:grid-cols-2 items-center justify-center relative'>
+
+              <div className=''>
+
+                <div className='relative inline-block'>
+                  <div className='absolute z-0 left-[-150px] bottom-0 '>
+                    <img src={maskleft} className='h-36 w-auto  ' alt="" />
+                  </div>
+                  <div className='mx-auto'>
+                    <span className="bg-cyan-600 ms-0 lg:ms-32  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                      Partner
+                    </span>
+                  </div>
+
+
+                </div>
+                <div className='flex justify-center mx-auto'>
+                  <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+
+                </div>
+
+              </div>
+              <div className='flex justify-center'>
+                <img src={partnership} alt="" className='   md:h-72    lg:mt-36 w-auto' />
+
+
+              </div>
+            </div>
+            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[100px] '>
+              <div>
+                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <div className="p-5 bg-white">
+                  <ul className="space-y-4 items-center tracking-widest">
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl  leading-relaxed text-gray-600">
+                        Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Opportunities for meaningful collaboration with like-minded professionals
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        Access to our professional network and job opportunities
+                      </p>
+                    </li>
+
+
+                    <li className="flex">
+                      <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
+                      <p className="text-xl leading-relaxed text-gray-600">
+                        20% discount on all services provided by Entity Collective
+                      </p>
+                    </li>
+                  </ul>
+
+
+
+                  <p className="mt-6 text-2xl font-semibold text-cyan-700">
+                    Annual Membership Fee: €50
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+      {/* Partner Section End */}
+
+
+
+
+
+
 
 
 
