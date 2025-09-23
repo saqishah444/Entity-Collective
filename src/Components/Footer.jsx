@@ -1,4 +1,4 @@
-import { Facebook, Github, Linkedin, Instagram, Phone, Mail } from "lucide";
+import { Facebook, Linkedin, Instagram, Phone, Mail, Github } from "lucide";
 
 export default function Footer() {
   return (
@@ -32,27 +32,27 @@ export default function Footer() {
       {/* Social Icons */}
       <div className="flex justify-center space-x-4 py-4">
         <a href="#" className="p-2 bg-blue-900 text-white rounded">
-          <div className="h-4 w-4"><Facebook /></div>
+          <div className="h-4 w-4">     </div>
         </a>
         <a href="#" className="p-2 bg-blue-900 text-white rounded">
-          <div className="h-4 w-4"><Github /></div>
+          <div className="h-4 w-4">      </div>
         </a>
         <a href="#" className="p-2 bg-blue-900 text-white rounded">
-          <div className="h-4 w-4"><Linkedin /></div>
+          <div className="h-4 w-4">       </div>
         </a>
         <a href="#" className="p-2 bg-blue-900 text-white rounded">
-          <div className="h-4 w-4"><Instagram /></div>
+          <div className="h-4 w-4">       </div>
         </a>
       </div>
 
       {/* Contact Info */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-center md:justify-center items-center space-y-4 md:space-y-0 md:space-x-10 py-4 text-blue-900">
         <div className="flex items-center space-x-2">
-          <div className="h-5 w-5"><Phone /></div>
+          <div className="h-5 w-5">      </div>
           <span>+32 4 896 00 19 2</span>
         </div>
         <div className="flex items-center space-x-2">
-          <div className="h-5 w-5"><Mail /></div>
+          <div className="h-5 w-5">      </div>
           <span>info@entitycollective.org</span>
         </div>
       </div>

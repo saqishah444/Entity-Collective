@@ -409,7 +409,7 @@ const App = () => {
 
       </section>
 
-      <section id='footer'>
+      <section id='footer' className='mt-10'>
         <Footer />
       </section>
 
