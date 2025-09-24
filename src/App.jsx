@@ -11,6 +11,7 @@ import research from './assets/images/research.png'
 import sponsorship from './assets/images/sponsership.png'
 import partnership from './assets/images/partnership.png'
 import Footer from './Components/Footer.jsx'
+import { Facebook } from 'lucide'
 
 
 
@@ -325,7 +326,7 @@ const App = () => {
 
       {/* Sponsor Section Start */}
 
-       <section id="sponsor" className="  bg-white px-6 py-16" >
+      <section id="sponsor" className="  bg-white px-6 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -390,7 +391,7 @@ const App = () => {
 
 
 
-                    
+
                   </ul>
 
 
@@ -408,24 +409,36 @@ const App = () => {
 
 
       </section>
+       {/* Sponsor Section End */}
 
-      <section id='footer' className='mt-10 md:mt-32 w-full'>
-        <Footer/>
+
+ {/* Footee Section Start */}
+      <section id='footer' className=' min-w-full bg-gray-100 mt-10 sm:mt-32'>
+        
+         {/* <div className=''>
+          <div className='flex justify-center gap-5'>
+            <div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+          </div>
+          <div></div>
+          <div></div>
+         </div> */}
+       <div><Footer /></div>  
+
+
+
+
+
+
+
+        
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ {/* Footer Section Start */}
 
 
 
