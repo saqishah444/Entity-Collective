@@ -86,7 +86,7 @@ const App = () => {
               <div className='flex justify-center'>
                 <img src={internship} alt="" className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
                 <div className='relative'>
-                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
+                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-20  w-40 h-40  md:h-44 '>
                     <img src={component} alt="" />
 
                   </div>
@@ -409,8 +409,8 @@ const App = () => {
 
       </section>
 
-      <section id='footer' className='mt-10'>
-        <Footer />
+      <section id='footer' className='mt-10 md:mt-32 w-full'>
+        <Footer/>
       </section>
 
 
