@@ -24,7 +24,7 @@ const App = () => {
       {/* Home Section */}
       <section
         id="membership"
-        className="grid place-items-center text-center py-40   px-6 bg-white"
+        className="grid place-items-center text-center py-28   px-6 bg-white"
       >
         {/* === Top Main Image (JOIN US + Figures) === */}
         <div className="grid place-items-center w-full">
@@ -60,7 +60,7 @@ const App = () => {
       </section>
 
       {/* Intern Section Start */}
-      <section id="intern" className="  bg-white px-6 py-16" >
+      <section id="intern" className="  bg-white px-6 ps-6 sm:ps-40 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -85,9 +85,9 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={internship} alt="" className='   md:h-72   lg:h-96 lg:mt-10 w-auto' />
+                <img src={internship} alt="" className='   md:h-72   lg:h-80 lg:mt-10 w-auto' />
                 <div className='relative'>
-                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-32 xl:-bottom-56 xl:-right-20  w-40 h-40  md:h-44 '>
+                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
                     <img src={component} alt="" />
 
                   </div>
@@ -96,7 +96,7 @@ const App = () => {
 
               </div>
             </div>
-            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
+            <div className='grid  md:grid-cols-2 mt-0 xl:-mt-[130px] '>
               <div>
                 <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
@@ -153,18 +153,18 @@ const App = () => {
 
       {/* Research Section Start */}
 
-      <section id="research" className="  bg-white px-6 py-16" >
+      <section id="research" className="  bg-white px-6 py-16 " >
         <div className='container mx-auto'>
-          <div className='flex flex-col justify-center items-center'>
+          <div className='flex flex-col justify-center items-center '>
 
-            <div className='grid md:grid-cols-2  justify-center relative'>
+            <div className='grid md:grid-cols-2  justify-center relative '>
 
-              <div className='flex justify-center order-2 md:order-1'>
-                <img src={research} alt="" className='   md:h-72   lg:mt-32 w-auto' />
+              <div className='flex justify-center order-2 md:order-1 '>
+                <img src={research} alt="" className='   md:h-64   lg:mt-32 w-auto' />
 
 
               </div>
-              <div className='order-1 md:order-2'>
+              <div className='order-1 md:order-2 '>
 
                 <div className='relative w-full'>
                   <div className='absolute z-0 right-0 bottom-0   lg:-right-40 xl:-right-5'>
@@ -236,7 +236,7 @@ const App = () => {
       {/* Research Section End */}
 
       {/* Partner Section Start */}
-      <section id="partner" className="  bg-white px-6 py-16" >
+      <section id="partner" className="  bg-white px-6 ps-6 sm:ps-40 py-16" >
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -263,7 +263,7 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={partnership} alt="" className='   md:h-72    lg:mt-36 w-auto' />
+                <img src={partnership} alt="" className='   md:h-64    lg:mt-36 w-auto' />
 
 
               </div>
@@ -333,7 +333,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div className='flex justify-center order-2 md:order-1'>
-                <img src={sponsorship} alt="" className='   md:h-72   lg:mt-32 w-auto' />
+                <img src={sponsorship} alt="" className='   md:h-64   lg:mt-32 w-auto' />
                 <div className='relative'>
                   {/* Decorative component: hidden on small screens, fixed to viewport left on md+ so it touches the left edge */}
                   <div className='hidden absolute md:block  md:right-56 md:-bottom-72 lg:right-72 lg:-bottom-72 xl:right-96 xl:-bottom-72 w-40 h-40 md:h-44 '>

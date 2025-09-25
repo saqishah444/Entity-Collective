@@ -1,20 +1,32 @@
 import logo from '../assets/images/navlogo.png'
- import { Facebook, Instagram, Github, Youtube, Phone, Mail, MessageCircle } from "lucide-react";
-
-
+import { Facebook, Instagram, Github, Youtube, Phone, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="pt-5 w-full">
-      <div className="w-full">
-        <div className="px-4 sm:px-6 lg:px-8 xl:px-10 py-8 w-full">
+    <div className="pt-5">
+      <div className=" ">
+        <div className="px-4 sm:px-6 lg:px-8 xl:px-10 py-8">
           {/* Social icons - top */}
           <div className="flex justify-center space-x-4 mb-6">
-            {/* ...social icons */}
+            <a href="#" className="inline-flex items-center justify-center h-10 w-10 bg-[#2F6680] text-white">
+              <Facebook className="h-5 w-5" />
+            </a>
+            <a href="#" className="inline-flex items-center justify-center h-10 w-10 bg-[#2F6680] text-white">
+              <Instagram className="h-5 w-5" />
+            </a>
+            <a href="#" className="inline-flex items-center justify-center h-10 w-10 bg-[#2F6680] text-white">
+              <Github className="h-5 w-5" />
+            </a>
+            <a href="#" className="inline-flex items-center justify-center h-10 w-10 bg-[#2F6680] text-white">
+              <MessageCircle className="h-5 w-5" />
+            </a>
+            <a href="#" className="inline-flex items-center justify-center h-10 w-10 bg-[#2F6680] text-white">
+              <Youtube className="h-5 w-5" />
+            </a>
           </div>
 
           {/* Nav Links - center */}
-          <nav className="flex flex-col sm:flex-row justify-center items-center md:justify-center gap-4 sm:gap-12 mb-6 text-center md:text-left w-full">
+          <nav className="flex flex-col sm:flex-row justify-center items-center md:justify-center gap-4 sm:gap-12 mb-6 text-center md:text-left">
             <a href="#about" className="uppercase text-xl tracking-wide text-[#4C9AB7]">About Us</a>
             <a href="#services" className="uppercase text-xl tracking-wide text-[#4C9AB7]">Services</a>
             <a href="#projects" className="uppercase text-xl tracking-wide text-[#4C9AB7]">Projects</a>
@@ -22,7 +34,7 @@ const Footer = () => {
           </nav>
 
           {/* Contact info & logo */}
-          <div className="flex flex-col md:flex-row items-center md:justify-center gap-6 md:gap-12 text-blue-900 flex-wrap w-full">
+          <div className="flex flex-col md:flex-row items-center md:justify-center gap-6 md:gap-12 text-blue-900 flex-wrap">
             <div className="flex-shrink-0">
               <a href="#">
                 <img src={logo} alt="Entity Collective" className="h-20 w-auto max-w-full object-contain" />
