@@ -41,27 +41,27 @@ const Navbar = () => {
           className={`${ isOpen ? "block" : "hidden" } w-full md:w-auto md:flex items-center justify-center`} >
           <ul className="flex flex-col md:flex-row md:items-center md:space-x-6 border-b-4 border-gray-200 tracking-wider  mt-4 md:mt-0">
             <li>
-              <a href="#home" className="block font-bold text-xl py-2 px-3 text-sky-600 hover:opacity-80">
+              <a href="#home" className="block font-bold text-xl py-2 px-3 text-[#4C9AB7] hover:opacity-80">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#about" className="block font-bold text-xl py-2 px-3 text-orange-600 hover:opacity-80">
+              <a href="#about" className="block font-bold text-xl py-2 px-3 text-[#EB8830] hover:opacity-80">
                 ABOUT US
               </a>
             </li>
             <li>
-              <a href="#services" className="block font-bold text-xl py-2 px-3 text-purple-600 hover:opacity-80">
+              <a href="#services" className="block font-bold text-xl py-2 px-3 text-[#923A7F] hover:opacity-80">
                 SERVICES
               </a>
             </li>
             <li>
-              <a href="#projects" className="block font-bold text-xl py-2 px-3 text-teal-600 hover:opacity-80">
+              <a href="#projects" className="block font-bold text-xl py-2 px-3 text-[#009579] hover:opacity-80">
                 PROJECTS
               </a>
             </li>
             <li>
-              <a href="#contact" className="block font-bold text-xl py-2 px-3 text-yellow-500 hover:opacity-80">
+              <a href="#contact" className="block font-bold text-xl py-2 px-3 text-[#FFC600] hover:opacity-80">
                 CONTACT US
               </a>
             </li>
