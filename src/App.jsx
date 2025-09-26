@@ -43,7 +43,7 @@ const App = () => {
               MEMBERSHIPS
             </span>
             <div>
-              <img src={herocomp} alt="" className='absolute h-8 w-auto   sm:h-auto sm:w-auto bottom-12 md:bottom-28 lg-40 left-0' srcSet="" />
+              <img src={herocomp} alt="" className='absolute h-8 w-auto   sm:h-auto sm:w-auto bottom-12 md:bottom-24 lg:bottom-28 lg-40 left-0' srcSet="" />
             </div>
           </div>
           {/* === Bottom Vector Arrow === */}
@@ -60,7 +60,7 @@ const App = () => {
       </section>
 
       {/* Intern Section Start */}
-      <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-44 py-16" >
+      <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-44 py-16" > 
         {/* decorative left mask positioned to touch viewport left edge */}
         <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 lg:-left-44 top-4 sm:-top-10 lg:-top-12 pointer-events-none">
           <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[41.5rem]" alt="" />
@@ -68,13 +68,13 @@ const App = () => {
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
-            <div className='grid md:grid-cols-2  justify-center relative '>
+            <div className='grid md:grid-cols-2  justify-center relative  md:-ms-10 lg:-ms-0'>
 
               <div>
 
                 <div className='relative inline-block z-10'>
                   <div className='mx-auto -mt-32'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-10  lg:ms-40  z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl border-2 border-black rounded-2xl hover:bg-cyan-700">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-10 md:-ms-0  lg:ms-40  z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl border-2 border-black rounded-2xl hover:bg-cyan-700">
                       Intern
                     </a>
                   </div>
@@ -84,9 +84,9 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={internship} alt="" className='h-40 ms-20 sm:ms-0   md:h-72   lg:h-80 lg:mt-10 w-auto' />
+                <img src={internship} alt="" className='h-40 ms-20 sm:ms-0 mt-0 md:mt-60    md:h-56   lg:h-80 lg:mt-10 w-auto' />
                 <div className='relative'>
-                  <div className='hidden md:block absolute md:-bottom-40 md:-right-6 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
+                  <div className='hidden md:block absolute md:-bottom-[40rem] md:-right-6 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-36  lg:h-44'>
                     <img src={component} alt="" />
 
                   </div>
@@ -163,7 +163,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative '>
 
               <div className='flex justify-center order-2 md:order-1 '>
-                <img src={research} alt="" className='h-40 ms-20 sm:ms-0   md:h-64   lg:mt-32 w-auto' />
+                <img src={research} alt="" className='h-40 ms-20 sm:ms-0 mt-0 md:mt-60  md:h-64   lg:mt-32 w-auto' />
 
 
               </div>
@@ -184,7 +184,7 @@ const App = () => {
               </div>
 
             </div>
-            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[150px] '>
+            <div className='grid  md:grid-cols-2 mt-0 md:-mt-[120px] lg:-mt-[150px] '>
               <div></div>
               <div>
                 <h3 className='text-xl sm:text-2xl text-[#923A7F] font-semibold py-10'>Benifits Include:</h3>
@@ -238,7 +238,7 @@ const App = () => {
       {/* Partner Section Start */}
       <section id="partner" className="relative bg-white px-6 ps-6 sm:ps-40 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
-        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:top-5 pointer-events-none">
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 md:top-2  sm:-top-10 lg:top-5 pointer-events-none">
           <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
         </div>
         <div className='container mx-auto'>
@@ -250,7 +250,7 @@ const App = () => {
 
                 <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-[#009579] ms-10 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl border-2 border-black rounded-2xl hover:bg-[#03866e]">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#009579] ms-10 lg:ms-32 pt-0 md:-pt-[20] lg:-pt-0 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl border-2 border-black rounded-2xl hover:bg-[#03866e]">
                       Partner
                     </a>
                   </div>
@@ -262,7 +262,7 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={partnership} alt="" className='h-40   md:h-64    lg:mt-36 w-auto' />
+                <img src={partnership} alt="" className='h-40   md:h-64 mt-0 md:mt-80   lg:mt-36 w-auto' />
 
 
               </div>
@@ -336,10 +336,10 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div className='flex justify-center order-2 md:order-1'>
-                <img src={sponsorship} alt="" className='h-40 me-10 sm:me-0   md:h-64   lg:mt-32 w-auto' />
+                <img src={sponsorship} alt="" className='h-40 me-10 sm:me-0   md:h-64 mt-0 md:mt-60  lg:mt-32 w-auto' />
                 <div className='relative'>
                   {/* Decorative component: hidden on small screens, fixed to viewport left on md+ so it touches the left edge */}
-                  <div className='hidden absolute md:block  md:right-56 md:-bottom-72 lg:right-72 lg:-bottom-72 xl:right-96 xl:-bottom-72 w-40 h-40 md:h-44 '>
+                  <div className='hidden absolute md:block  md:right-56 md:-bottom-[30rem] lg:right-72 lg:-bottom-72 xl:right-96 xl:-bottom-72 w-40 h-40 md:h-44 '>
                     <img src={component} alt="" />
 
                   </div>
@@ -363,7 +363,7 @@ const App = () => {
               </div>
 
             </div>
-            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
+            <div className='grid  md:grid-cols-2 mt-0 md:-mt-[150px] lg:-mt-[180px] '>
               <div></div>
               <div>
                 <h3 className='text-xl sm:text-2xl text-[#EB8830] font-semibold py-10'>Benifits Include:</h3>
