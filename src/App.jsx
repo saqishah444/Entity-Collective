@@ -39,7 +39,7 @@ const App = () => {
         {/* === Memberships Button === */}
         <div className="grid gap-2  mt-10">
           <div className='relative'>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold px-10 py-4 md:px-24 md:py-6 rounded-2xl border-2 border-black shadow-lg text-lg md:text-4xl tracking-widest transition">
+            <button className="bg-yellow-400  text-white font-semibold px-10 py-4 md:px-24 md:py-6 rounded-2xl border-2 border-black shadow-lg text-lg md:text-4xl tracking-widest transition">
               MEMBERSHIPS
             </button>
             <div>
@@ -60,10 +60,10 @@ const App = () => {
       </section>
 
       {/* Intern Section Start */}
-      <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-28 py-16" >
+      <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-44 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
-        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-8 pointer-events-none">
-          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 lg:-left-44 top-4 sm:-top-10 lg:-top-3 pointer-events-none">
+          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[44rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
@@ -74,7 +74,7 @@ const App = () => {
 
                 <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-10  lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl rounded-2xl hover:bg-cyan-700">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-10  lg:ms-40 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl rounded-2xl hover:bg-cyan-700">
                       Intern
                     </a>
                   </div>
@@ -97,7 +97,7 @@ const App = () => {
             </div>
             <div className='grid  md:grid-cols-2 mt-0 xl:-mt-[130px] '>
               <div>
-                <h3 className='text:xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text:xl sm:text-2xl text-cyan-600 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
@@ -187,7 +187,7 @@ const App = () => {
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[150px] '>
               <div></div>
               <div>
-                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-[#923A7F] font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
@@ -238,7 +238,7 @@ const App = () => {
       {/* Partner Section Start */}
       <section id="partner" className="relative bg-white px-6 ps-6 sm:ps-40 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
-        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-3 pointer-events-none">
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:top-5 pointer-events-none">
           <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
         </div>
         <div className='container mx-auto'>
@@ -269,7 +269,7 @@ const App = () => {
             </div>
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[70px] '>
               <div>
-                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-[#009579] font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 items-center tracking-widest">
                     <li className="flex">
@@ -366,7 +366,7 @@ const App = () => {
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
               <div></div>
               <div>
-                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-[#EB8830] font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
