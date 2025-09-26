@@ -63,7 +63,7 @@ const App = () => {
       <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-28 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
         <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-8 pointer-events-none">
-          <img src={maskleft} className="h-24 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
+          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
@@ -74,12 +74,12 @@ const App = () => {
 
                 <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-0 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-cyan-700">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-10  lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl rounded-2xl hover:bg-cyan-700">
                       Intern
                     </a>
                   </div>
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[16px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[15px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
 
               </div>
@@ -102,7 +102,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -110,7 +110,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -118,7 +118,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -126,7 +126,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -155,7 +155,7 @@ const App = () => {
       <section id="research" className="relative bg-white px-6 py-16 " >
         {/* decorative right mask positioned to touch viewport right edge */}
         <div className="absolute z-0 right-0 sm:right-0 md:-right-0  top-4 sm:-top-10 lg:-top-3 pointer-events-none">
-          <img src={maskright} className="h-24 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
+          <img src={maskright} className="h-20 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center '>
@@ -171,14 +171,14 @@ const App = () => {
 
                 <div className='relative w-full'>
                   <div className='mx-auto relative z-10'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-[#923A7F] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl hover:bg-[#882973] rounded-2xl">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#923A7F] ms-10 md:ms-0 lg:ms-40 text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl hover:bg-[#882973] rounded-2xl">
                       Research
                     </a>
                   </div>
 
 
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[16px] sm:text-[20px] mt-8'>The Researcher Membership is intended for individuals deeply involved in the arts or social sciences who are committed to conducting advanced research in collaboration with Entity projects.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[15px] sm:text-[20px] mt-8'>The Researcher Membership is intended for individuals deeply involved in the arts or social sciences who are committed to conducting advanced research in collaboration with Entity projects.</p>
 
 
               </div>
@@ -192,7 +192,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Recognition as a Researcher Member on the Entity Collective website
                       </p>
                     </li>
@@ -200,7 +200,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our network of communities and partner organisations
                       </p>
                     </li>
@@ -211,7 +211,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -239,7 +239,7 @@ const App = () => {
       <section id="partner" className="relative bg-white px-6 ps-6 sm:ps-40 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
         <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-3 pointer-events-none">
-          <img src={maskleft} className="h-24 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
+          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
@@ -250,13 +250,13 @@ const App = () => {
 
                 <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-[#009579] ms-0 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-[#03866e]">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#009579] ms-10 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl rounded-2xl hover:bg-[#03866e]">
                       Partner
                     </a>
                   </div>
                 </div>
                 <div className='flex justify-center mx-auto'>
-                  <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[16px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                  <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[15px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
                 </div>
 
@@ -274,7 +274,7 @@ const App = () => {
                   <ul className="space-y-4 items-center tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl  leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl  leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -282,7 +282,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -290,7 +290,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -298,7 +298,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -328,7 +328,7 @@ const App = () => {
       <section id="sponsor" className="relative bg-white px-6 py-16" >
         {/* decorative right mask positioned to touch viewport right edge */}
        <div className="absolute z-0 right-0 sm:right-0 md:-right-0  top-4 sm:-top-10 lg:-top-3 pointer-events-none">
-          <img src={maskright} className="h-24 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
+          <img src={maskright} className="h-20 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
@@ -352,12 +352,12 @@ const App = () => {
 
                 <div className='relative w-full'>
                   <div className='mx-auto relative z-10'>
-                    <a href='https://entitycollective.org/contact-us/' className="bg-[#EB8830] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-[#e0791e]">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#EB8830] ms-10 md:ms-0 lg:ms-40 text-white text-center tracking-widest font-medium text-2xl px-16 py-3 sm:px-24 sm:py-4 sm:text-3xl rounded-2xl hover:bg-[#e0791e]">
                       Sponsor
                     </a>
                   </div>
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[16px] sm:text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[15px] sm:text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
 
 
               </div>
@@ -371,7 +371,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Prominent recognition as a Sponsor on all Entity materials and publications
                       </p>
                     </li>
@@ -379,7 +379,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
                         Logo display on the Entity website and at all official events and exhibitions
                       </p>
                     </li>
