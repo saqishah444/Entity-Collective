@@ -357,7 +357,7 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[15px] sm:text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[13px] sm:text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
 
 
               </div>
@@ -371,7 +371,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[12px] sm:text-xl leading-relaxed text-cyan-900">
                         Prominent recognition as a Sponsor on all Entity materials and publications
                       </p>
                     </li>
@@ -379,7 +379,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-[15px] sm:text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[12px] sm:text-xl leading-relaxed text-cyan-900">
                         Logo display on the Entity website and at all official events and exhibitions
                       </p>
                     </li>
