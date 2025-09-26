@@ -103,7 +103,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -111,7 +111,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -119,7 +119,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -127,7 +127,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -192,7 +192,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Recognition as a Researcher Member on the Entity Collective website
                       </p>
                     </li>
@@ -200,7 +200,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Access to our network of communities and partner organisations
                       </p>
                     </li>
@@ -211,7 +211,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -275,7 +275,7 @@ const App = () => {
                   <ul className="space-y-4 items-center tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl  leading-relaxed text-gray-600">
+                      <p className="text-xl  leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -283,7 +283,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -291,7 +291,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -299,7 +299,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -374,7 +374,7 @@ const App = () => {
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Prominent recognition as a Sponsor on all Entity materials and publications
                       </p>
                     </li>
@@ -382,7 +382,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-gray-600">
+                      <p className="text-xl leading-relaxed text-cyan-900">
                         Logo display on the Entity website and at all official events and exhibitions
                       </p>
                     </li>
