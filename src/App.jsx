@@ -79,12 +79,12 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[16px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
 
               </div>
               <div className='flex justify-center'>
-                <img src={internship} alt="" className='   md:h-72   lg:h-80 lg:mt-10 w-auto' />
+                <img src={internship} alt="" className='h-48   md:h-72   lg:h-80 lg:mt-10 w-auto' />
                 <div className='relative'>
                   <div className='hidden md:block absolute md:-bottom-40 md:-right-6 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
                     <img src={component} alt="" />
@@ -97,12 +97,12 @@ const App = () => {
             </div>
             <div className='grid  md:grid-cols-2 mt-0 xl:-mt-[130px] '>
               <div>
-                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text:xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -110,7 +110,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -118,7 +118,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -126,7 +126,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -134,7 +134,7 @@ const App = () => {
 
 
 
-                  <p className="mt-6 text-2xl font-semibold text-cyan-700">
+                  <p className="mt-6 text-xl sm:text-2xl font-semibold text-cyan-700">
                     Annual Membership Fee: €50
                   </p>
                 </div>
@@ -163,7 +163,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative '>
 
               <div className='flex justify-center order-2 md:order-1 '>
-                <img src={research} alt="" className='   md:h-64   lg:mt-32 w-auto' />
+                <img src={research} alt="" className='h-48   md:h-64   lg:mt-32 w-auto' />
 
 
               </div>
@@ -178,7 +178,7 @@ const App = () => {
 
 
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[20px] mt-8'>The Researcher Membership is intended for individuals deeply involved in the arts or social sciences who are committed to conducting advanced research in collaboration with Entity projects.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[16px] sm:text-[20px] mt-8'>The Researcher Membership is intended for individuals deeply involved in the arts or social sciences who are committed to conducting advanced research in collaboration with Entity projects.</p>
 
 
               </div>
@@ -187,12 +187,12 @@ const App = () => {
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[150px] '>
               <div></div>
               <div>
-                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Recognition as a Researcher Member on the Entity Collective website
                       </p>
                     </li>
@@ -200,7 +200,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our network of communities and partner organisations
                       </p>
                     </li>
@@ -211,7 +211,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -219,7 +219,7 @@ const App = () => {
 
 
 
-                  <p className="mt-6 text-2xl font-semibold text-[#923A7F]">
+                  <p className="mt-6 text-xl sm:text-2xl font-semibold text-[#923A7F]">
                     Annual Membership Fee: €150
                   </p>
                 </div>
@@ -256,25 +256,25 @@ const App = () => {
                   </div>
                 </div>
                 <div className='flex justify-center mx-auto'>
-                  <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
+                  <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[16px] sm:text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
                 </div>
 
               </div>
               <div className='flex justify-center'>
-                <img src={partnership} alt="" className='   md:h-64    lg:mt-36 w-auto' />
+                <img src={partnership} alt="" className='h-48   md:h-64    lg:mt-36 w-auto' />
 
 
               </div>
             </div>
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[70px] '>
               <div>
-                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 items-center tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl  leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl  leading-relaxed text-cyan-900">
                         Hands-on experience and skill development in your area of practice (art, science, economics, programming, etc.)
                       </p>
                     </li>
@@ -282,7 +282,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Opportunities for meaningful collaboration with like-minded professionals
                       </p>
                     </li>
@@ -290,7 +290,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Access to our professional network and job opportunities
                       </p>
                     </li>
@@ -298,7 +298,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         20% discount on all services provided by Entity Collective
                       </p>
                     </li>
@@ -306,7 +306,7 @@ const App = () => {
 
 
 
-                  <p className="mt-6 text-2xl font-semibold text-[#009579]">
+                  <p className="mt-6 text-xl sm:text-2xl font-semibold text-[#009579]">
                     Annual Membership Fee: €50
                   </p>
                 </div>
@@ -336,7 +336,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div className='flex justify-center order-2 md:order-1'>
-                <img src={sponsorship} alt="" className='   md:h-64   lg:mt-32 w-auto' />
+                <img src={sponsorship} alt="" className='h-48   md:h-64   lg:mt-32 w-auto' />
                 <div className='relative'>
                   {/* Decorative component: hidden on small screens, fixed to viewport left on md+ so it touches the left edge */}
                   <div className='hidden absolute md:block  md:right-56 md:-bottom-72 lg:right-72 lg:-bottom-72 xl:right-96 xl:-bottom-72 w-40 h-40 md:h-44 '>
@@ -357,7 +357,7 @@ const App = () => {
                     </a>
                   </div>
                 </div>
-                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
+                <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[16px] sm:text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
 
 
               </div>
@@ -366,12 +366,12 @@ const App = () => {
             <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
               <div></div>
               <div>
-                <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
+                <h3 className='text-xl sm:text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
                   <ul className="space-y-4 tracking-widest">
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Prominent recognition as a Sponsor on all Entity materials and publications
                       </p>
                     </li>
@@ -379,7 +379,7 @@ const App = () => {
 
                     <li className="flex">
                       <span className="flex-shrink-0 mt-3.5 w-1 h-1 rounded-full bg-cyan-900 mr-3" />
-                      <p className="text-xl leading-relaxed text-cyan-900">
+                      <p className="text-[16px] sm:text-xl leading-relaxed text-cyan-900">
                         Logo display on the Entity website and at all official events and exhibitions
                       </p>
                     </li>
@@ -393,7 +393,7 @@ const App = () => {
 
 
 
-                  <p className="mt-6 text-2xl font-semibold text-[#EB8830]">
+                  <p className="mt-6 text-xl sm:text-2xl font-semibold text-[#EB8830]">
                     Annual Membership Fee: €1500
                   </p>
                 </div>
