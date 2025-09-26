@@ -37,17 +37,17 @@ const App = () => {
         </div>
 
         {/* === Memberships Button === */}
-        <div className="grid gap-2  mt-10">
+        <div className="grid gap-4  mt-10">
           <div className='relative'>
             <span className="bg-yellow-400  text-white font-semibold px-10 py-4 md:px-24 md:py-6 rounded-2xl  shadow-lg text-lg md:text-4xl tracking-widest ">
               MEMBERSHIPS
             </span>
             <div>
-              <img src={herocomp} alt="" className='absolute h-8 w-auto   sm:h-auto sm:w-auto bottom-12 md:bottom-36 lg-40 left-0' srcSet="" />
+              <img src={herocomp} alt="" className='absolute h-8 w-auto   sm:h-auto sm:w-auto bottom-12 md:bottom-28 lg-40 left-0' srcSet="" />
             </div>
           </div>
           {/* === Bottom Vector Arrow === */}
-          <div className="grid place-items-end pe-2 ">
+          <div className="grid place-items-end pe-2 mt-5 ">
             <img
               src={pathimg}
               alt="Down Arrow"
@@ -84,7 +84,7 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={internship} alt="" className='h-48   md:h-72   lg:h-80 lg:mt-10 w-auto' />
+                <img src={internship} alt="" className='h-40 ms-20 sm:ms-0   md:h-72   lg:h-80 lg:mt-10 w-auto' />
                 <div className='relative'>
                   <div className='hidden md:block absolute md:-bottom-40 md:-right-6 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
                     <img src={component} alt="" />
@@ -163,7 +163,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative '>
 
               <div className='flex justify-center order-2 md:order-1 '>
-                <img src={research} alt="" className='h-48   md:h-64   lg:mt-32 w-auto' />
+                <img src={research} alt="" className='h-40 ms-20 sm:ms-0   md:h-64   lg:mt-32 w-auto' />
 
 
               </div>
@@ -262,7 +262,7 @@ const App = () => {
 
               </div>
               <div className='flex justify-center'>
-                <img src={partnership} alt="" className='h-48   md:h-64    lg:mt-36 w-auto' />
+                <img src={partnership} alt="" className='h-40   md:h-64    lg:mt-36 w-auto' />
 
 
               </div>
@@ -336,7 +336,7 @@ const App = () => {
             <div className='grid md:grid-cols-2  justify-center relative'>
 
               <div className='flex justify-center order-2 md:order-1'>
-                <img src={sponsorship} alt="" className='h-48   md:h-64   lg:mt-32 w-auto' />
+                <img src={sponsorship} alt="" className='h-40 me-10 sm:me-0   md:h-64   lg:mt-32 w-auto' />
                 <div className='relative'>
                   {/* Decorative component: hidden on small screens, fixed to viewport left on md+ so it touches the left edge */}
                   <div className='hidden absolute md:block  md:right-56 md:-bottom-72 lg:right-72 lg:-bottom-72 xl:right-96 xl:-bottom-72 w-40 h-40 md:h-44 '>
