@@ -62,8 +62,8 @@ const App = () => {
       {/* Intern Section Start */}
       <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-44 py-16" >
         {/* decorative left mask positioned to touch viewport left edge */}
-        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 lg:-left-44 top-4 sm:-top-10 lg:-top-3 pointer-events-none">
-          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[44rem]" alt="" />
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 lg:-left-44 top-4 sm:-top-10 lg:-top-12 pointer-events-none">
+          <img src={maskleft} className="h-20 w-auto sm:h-32 sm:w-[30rem]  lg:w-[41.5rem]" alt="" />
         </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
