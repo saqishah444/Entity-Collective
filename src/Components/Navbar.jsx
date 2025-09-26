@@ -61,7 +61,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="block font-bold text-xl py-2 px-3 text-[#FFC600] hover:opacity-80">
+              <a href="https://entitycollective.org/contact-us/" className="block font-bold text-xl py-2 px-3 text-[#FFC600] hover:opacity-80">
                 CONTACT US
               </a>
             </li>

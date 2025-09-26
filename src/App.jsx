@@ -60,7 +60,11 @@ const App = () => {
       </section>
 
       {/* Intern Section Start */}
-      <section id="intern" className="  bg-white px-6 ps-6 sm:ps-40 py-16" >
+      <section id="intern" className="relative bg-white px-6 ps-6 sm:ps-28 py-16" >
+        {/* decorative left mask positioned to touch viewport left edge */}
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-8 pointer-events-none">
+          <img src={maskleft} className="h-24 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
+        </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -68,17 +72,12 @@ const App = () => {
 
               <div>
 
-                <div className='relative inline-block'>
-                  <div className='absolute z-0 left-[-150px] bottom-0 '>
-                    <img src={maskleft} className='h-36 w-auto  ' alt="" />
-                  </div>
+                <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <span className="bg-cyan-600 ms-0 lg:ms-32  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-cyan-600 ms-0 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-cyan-700">
                       Intern
-                    </span>
+                    </a>
                   </div>
-
-
                 </div>
                 <p className='tracking-widest text-cyan-900 [word-spacing:20px] text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
 
@@ -87,7 +86,7 @@ const App = () => {
               <div className='flex justify-center'>
                 <img src={internship} alt="" className='   md:h-72   lg:h-80 lg:mt-10 w-auto' />
                 <div className='relative'>
-                  <div className='hidden md:block absolute md:-bottom-40 md:-right-10 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
+                  <div className='hidden md:block absolute md:-bottom-40 md:-right-6 lg:-bottom-48 lg:-right-44 xl:-bottom-56 xl:-right-24  w-40 h-40  md:h-44 '>
                     <img src={component} alt="" />
 
                   </div>
@@ -153,7 +152,11 @@ const App = () => {
 
       {/* Research Section Start */}
 
-      <section id="research" className="  bg-white px-6 py-16 " >
+      <section id="research" className="relative bg-white px-6 py-16 " >
+        {/* decorative right mask positioned to touch viewport right edge */}
+        <div className="absolute z-0 right-0 sm:right-0 md:-right-0  top-4 sm:-top-10 lg:-top-3 pointer-events-none">
+          <img src={maskright} className="h-24 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
+        </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center '>
 
@@ -167,13 +170,10 @@ const App = () => {
               <div className='order-1 md:order-2 '>
 
                 <div className='relative w-full'>
-                  <div className='absolute z-0 right-0 bottom-0   lg:-right-40 xl:-right-5'>
-                    <img src={maskright} className='h-24 md:h-28 lg:h-32 w-auto' alt="" />
-                  </div>
                   <div className='mx-auto relative z-10'>
-                    <span className="bg-[#923A7F] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#923A7F] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl hover:bg-[#882973] rounded-2xl">
                       Research
-                    </span>
+                    </a>
                   </div>
 
 
@@ -184,7 +184,7 @@ const App = () => {
               </div>
 
             </div>
-            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[180px] '>
+            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[150px] '>
               <div></div>
               <div>
                 <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
@@ -236,7 +236,11 @@ const App = () => {
       {/* Research Section End */}
 
       {/* Partner Section Start */}
-      <section id="partner" className="  bg-white px-6 ps-6 sm:ps-40 py-16" >
+      <section id="partner" className="relative bg-white px-6 ps-6 sm:ps-40 py-16" >
+        {/* decorative left mask positioned to touch viewport left edge */}
+        <div className="absolute z-0 -left-6 sm:-left-52 md:-left-40 top-4 sm:-top-10 lg:-top-3 pointer-events-none">
+          <img src={maskleft} className="h-24 w-auto sm:h-32 sm:w-[30rem]  lg:w-[40rem]" alt="" />
+        </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -244,17 +248,12 @@ const App = () => {
 
               <div className=''>
 
-                <div className='relative inline-block'>
-                  <div className='absolute z-0 left-[-150px] bottom-0 '>
-                    <img src={maskleft} className='h-36 w-auto  ' alt="" />
-                  </div>
+                <div className='relative inline-block z-10'>
                   <div className='mx-auto'>
-                    <span className="bg-[#009579] ms-0 lg:ms-32  z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#009579] ms-0 lg:ms-32 z-10 relative text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-[#03866e]">
                       Partner
-                    </span>
+                    </a>
                   </div>
-
-
                 </div>
                 <div className='flex justify-center mx-auto'>
                   <p className='tracking-widest  text-cyan-900 [word-spacing:20px] py-10 text-[20px] mt-8'>DESIGNED FOR STUDENTS AND RECENT GRADUATES, THE INTERN MEMBERSHIP IS IDEAL FOR THOSE LOOKING TO ENGAGE IN CREATIVE, RESEARCH-BASED, OR TECHNICAL PROJECTS THAT ALIGN WITH ENTITY COLLECTIVE’S MISSION.</p>
@@ -268,7 +267,7 @@ const App = () => {
 
               </div>
             </div>
-            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[100px] '>
+            <div className='grid  md:grid-cols-2 mt-0 lg:-mt-[70px] '>
               <div>
                 <h3 className='text-2xl text-cyan-900 font-semibold py-10'>Benifits Include:</h3>
                 <div className="p-5 bg-white">
@@ -326,7 +325,11 @@ const App = () => {
 
       {/* Sponsor Section Start */}
 
-      <section id="sponsor" className="  bg-white px-6 py-16" >
+      <section id="sponsor" className="relative bg-white px-6 py-16" >
+        {/* decorative right mask positioned to touch viewport right edge */}
+       <div className="absolute z-0 right-0 sm:right-0 md:-right-0  top-4 sm:-top-10 lg:-top-3 pointer-events-none">
+          <img src={maskright} className="h-24 w-auto sm:h-32  md:w-[18rem] lg:w-[24rem] xl:w-[28rem]" alt="" />
+        </div>
         <div className='container mx-auto'>
           <div className='flex flex-col justify-center items-center'>
 
@@ -348,17 +351,11 @@ const App = () => {
               <div className='order-1 md:order-2'>
 
                 <div className='relative w-full'>
-                  <div className='absolute z-0 right-0 bottom-0   lg:-right-40 xl:-right-5'>
-                    <img src={maskright} className='h-24 md:h-28 lg:h-32 w-auto' alt="" />
-
-                  </div>
                   <div className='mx-auto relative z-10'>
-                    <span className="bg-[#EB8830] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl">
+                    <a href='https://entitycollective.org/contact-us/' className="bg-[#EB8830] ms-0 lg:ms-40 text-white text-center tracking-widest font-medium px-24 py-4 text-3xl rounded-2xl hover:bg-[#e0791e]">
                       Sponsor
-                    </span>
+                    </a>
                   </div>
-
-
                 </div>
                 <p className='tracking-widest text-cyan-900 [word-spacing:20px] flex justify-center py-5 text-[20px] mt-8'>Sponsor Membership is intended for individuals, companies, or organisations that actively support Entity Collective financially, intellectually, or creatively.</p>
 
